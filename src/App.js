@@ -9,9 +9,18 @@ let fakeServerData = {
   user: {
     name: 'Adrian',
     playlists: [
-      {}
-      {}
-      {}
+      {
+        name: 'My Favorites',
+        songs: ['Beat It', 'Rain', 'Canneloni Makaroni'],
+      }
+      {
+        name: 'Most Necessary',
+        songs: ['Plug Walk', 'Outside Today', 'Thousand Ways'],
+      }
+      {
+        name: 'Lush Lofi',
+        songs: ['Aqua Skies', 'Faith', 'Blooming'],
+      }
     ]
   }
 };
